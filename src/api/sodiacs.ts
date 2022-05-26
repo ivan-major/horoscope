@@ -69,7 +69,7 @@ const sodiacDate = [
       date1: {
         date: 21,
         name: 'Лев',
-        url: './images/zodiac/5_Leo.pn',
+        url: './images/zodiac/5_Leo.png',
       },
       date2: {
         date: 22,
@@ -165,7 +165,7 @@ const sodiacDate = [
       date1: {
         date: 19,
         name: 'Водолей',
-        url: './images/zodiac/11_Aquarius.pngg',
+        url: './images/zodiac/11_Aquarius.png',
       },
       date2: {
         date: 20,
@@ -181,7 +181,7 @@ const sodiacDate = [
       date1: {
         date: 11,
         name: 'Рыбы',
-        url: './images/zodiac/12_Pisces.pngg',
+        url: './images/zodiac/12_Pisces.png',
       },
       date2: {
         date: 22,
