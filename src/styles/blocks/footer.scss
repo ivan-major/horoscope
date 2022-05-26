@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  height: 22px;
+  font-size: 10px;
+  line-height: 22px;
+  text-transform: lowercase;
+  font-weight: 400;
+  color: #d6d6d6;
+
+  position: absolute;
+  bottom: 0;
+
+  &__end {
+    font-size: 6px;
+    line-height: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+}

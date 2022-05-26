@@ -1,0 +1,25 @@
+.result {
+  display: grid;
+  gap: 20px;
+
+  &__text {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: $d-gray;
+
+    &--blue {
+      color: $blue;
+    }
+
+    &--bold {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    &--normal {
+      margin: 0;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.button {
+  display: none;
+
+  width: 186px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  background-color: $blue;
+  border: none;
+
+  padding: 0;
+
+  cursor: pointer;
+
+  &__text {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}

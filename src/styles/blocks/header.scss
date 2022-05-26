@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  background-color: $blue;
+  height: 57px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include onDesktop {
+    height: 65px;
+  }
+
+  &__container {
+    width: 100%;
+  }
+
+  &__content {
+    margin: 0;
+    font-weight: 700;
+    line-height: 16px;
+    color: #afdce5;
+
+    @include onDesktop {
+      line-height: 22px;
+    }
+
+    &--title {
+      font-size: 17px;
+      text-transform: uppercase;
+
+      @include onDesktop {
+        font-size: 22px;
+      }
+    }
+
+    &--text {
+      font-size: 10px;
+
+      @include onDesktop {
+        font-size: 20px;
+      }
+    }
+  }
+}

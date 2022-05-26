@@ -1,0 +1,26 @@
+.container {
+  margin: 0 10px;
+
+  @include onMobile375 {
+    margin: 0 20px;
+  }
+
+  @include onDesktop {
+    width: 665px;
+    margin: 0 auto;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
